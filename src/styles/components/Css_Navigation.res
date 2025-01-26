@@ -6,7 +6,14 @@ let container = clsx([
   "border-gray-200",
   "bg-white",
   "shadow-sm",
-  "p-4"
+  "p-4",
+  "lg:items-center",
+])
+
+let inner = clsx([
+  "flex",
+  "justify-between",
+  "items-center",
 ])
 
 let logo = clsx([
