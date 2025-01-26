@@ -1,7 +1,14 @@
-import * as React from 'react'
-import * as ReactDOM from 'react-dom/client'
-import '../index.css'
-import { default as Demo } from './Demo.res.mjs'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App.mjs';
+import './styles/index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(React.createElement(Demo))
+ReactDOM.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
