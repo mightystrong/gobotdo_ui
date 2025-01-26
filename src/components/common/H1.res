@@ -1,11 +1,10 @@
 @react.component
 let make = (
-  ~id=?,
+  ~id,
   ~className="",
   ~color=Css.Text.Black,
   ~weight=Css.Font.Medium,
   ~size=Css.Text.XXL,
-  ~parentModule=?,
   ~children
 ) => {
   let className = clsx([
@@ -15,13 +14,8 @@ let make = (
     className
   ])
 
-  let original = <h1 ?id className> {children} </h1>
+  let id = Js.Array.joinWith("__", [id, __MODULE__])
 
-  let dataModule = switch parentModule {
-    | Some(x) => Js.Array.joinWith("__", [x, __MODULE__])
-    | None => __MODULE__
-  }
-
-  React.cloneElement(original, {"data-module": dataModule})
+  <h1 id className> {children} </h1>
 }
 
