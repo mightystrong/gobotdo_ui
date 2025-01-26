@@ -1,6 +1,6 @@
 @react.component
 let default = () => {
-  <div>
+  <div className="bg-red-500">
     <h1>{`Hello, world again!`->React.string}</h1>
   </div>
 }
