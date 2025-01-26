@@ -2,5 +2,6 @@
 let default = () => {
   <div>
     <h1>{`Hello, world!`->React.string}</h1>
+    <div>{`again`->React.string}</div>
   </div>
 }
