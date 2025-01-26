@@ -12,6 +12,7 @@
     "@rescript/core": "1.6.1",
     "@rescript/react": "^0.13.0",
     "@tailwindcss/vite": "^4.0.0",
+    "clsx": "^2.1.1",
     "concurrently": "^9.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

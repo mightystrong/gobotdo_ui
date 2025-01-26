@@ -1,6 +1,6 @@
 @react.component
 let default = () => {
-  <div className="bg-red-500">
-    <h1>{`Hello, world again!`->React.string}</h1>
+  <div className={Css.Home.container}>
+    <h1 className={Css.Navigation.logo}>{`GoBotDo`->React.string}</h1>
   </div>
 }
