@@ -11,3 +11,7 @@
 
 #!.yarn/cache
 .pnp.*
+
+/lib/
+.bsb.lock
+**/*.res.mjs
