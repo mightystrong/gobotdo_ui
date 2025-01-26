@@ -15,3 +15,5 @@
 /lib/
 .bsb.lock
 **/*.res.mjs
+
+/node_modules/

@@ -14,11 +14,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rescript/react@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@rescript/react@npm:0.13.0"
+  peerDependencies:
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+  checksum: 10c0/95183df1160b85ea118582d4667186b9e972fdb430897eb27cf94fe05fbf85822a07ea937423f83f7a0195313d65626e3ec20860d134b53c0a20d9b920249b1b
+  languageName: node
+  linkType: hard
+
 "gobotdo_ui@workspace:.":
   version: 0.0.0-use.local
   resolution: "gobotdo_ui@workspace:."
   dependencies:
     "@rescript/core": "npm:1.6.1"
+    "@rescript/react": "npm:^0.13.0"
     rescript: "npm:11.1.4"
   languageName: unknown
   linkType: soft
