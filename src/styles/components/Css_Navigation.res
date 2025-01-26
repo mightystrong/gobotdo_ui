@@ -6,9 +6,11 @@ let container = clsx([
   "border-gray-200",
   "bg-white",
   "shadow-sm",
+  "p-4"
 ])
 
 let logo = clsx([
   "font-gobotdo",
   "text-2xl",
+  "hover:text-purple-400",
 ])

@@ -1,3 +1,6 @@
-module Home = HomeCss
-module Layout = LayoutCss
-module Navigation = NavigationCss
+// Pages
+module Home = Css_Home
+
+// Components
+module Layout = Css_Layout
+module Navigation = Css_Navigation
